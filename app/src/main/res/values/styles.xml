@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- We specify No action bar. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+<!--        <item name="android:fontFamily">@font/custom_font</item>&lt;!&ndash;if we want to apply it only to the employee Name then we add a line in list_item.xml&ndash;&gt;-->
+<!--        <item name="fontFamily">@font/custom_font</item>-->
+    </style>
+
+    <style name="Header" parent="TextAppearance.AppCompat">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="Header.Small">
+        <item name="android:textColor">@color/colorGray</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+</resources>

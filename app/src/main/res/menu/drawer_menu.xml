@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/action"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/add_new"
+            android:title="Add New Employee" />
+
+        <item
+            android:id="@+id/menu_latest_employee_name"
+            android:title="@string/latest_employee_name" />
+    </group>
+    <group
+        android:id="@+id/exim"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/menu_export_data"
+            android:title="@string/export_data" />
+        <item
+            android:id="@+id/menu_import_data"
+            android:title="@string/import_data" />
+    </group>
+    <!--We add group to create a gap id of the group is of no use!-->
+    <group
+        android:id="@+id/pages"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_domain_black_24dp"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="Contact Us" />
+
+    </group>
+
+</menu>
